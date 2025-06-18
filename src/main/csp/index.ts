@@ -22,6 +22,8 @@ export const CspPolicies: PolicyMap = {
     "localhost": ImageAndCssSrc,
     "127.0.0.1": ImageAndCssSrc,
 
+
+    "fakeprofile.is-always.online": ImageAndCssSrc, // FakeProfile API
     "*.github.io": ImageAndCssSrc, // GitHub pages, used by most themes
     "github.com": ImageAndCssSrc, // GitHub content (stuff uploaded to markdown forms), used by most themes
     "raw.githubusercontent.com": ImageAndCssSrc, // GitHub raw, used by some themes
